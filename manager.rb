@@ -43,7 +43,7 @@ class Manager < Employee
   end
   def fire_all_employees 
     @employees.each do |employee|
-      puts employee.active
+      puts employee.active = false 
     end 
   end 
 end
